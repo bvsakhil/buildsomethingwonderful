@@ -6,6 +6,8 @@ export default function Home() {
       <main className="max-w-2xl mx-auto px-6 py-16 md:py-24">
         {/* Title */}
         <h1 className="text-4xl font-bold mb-16">BuildSomethingWonderful</h1>
+        <p className="text-2xl font-semibold mb-8">fund to help student-builders across the world build onchain through
+        experimental grant funding.</p>
 
         {/* Introduction */}
         <div className="mb-16">
@@ -50,13 +52,7 @@ export default function Home() {
           </ul>
         </div>
 
-        {/* What's the Fund about? */}
-        <div className="mb-16">
-          <p className="text-lg mb-6 border-l-4 border-gray-200 pl-4 italic">
-            BuildSomethingWonderful is a fund to help student-builders across the world build onchain through
-            experimental grant funding.
-          </p>
-        </div>
+        
 
         {/* Why do We Need? */}
         <div className="mb-16">
