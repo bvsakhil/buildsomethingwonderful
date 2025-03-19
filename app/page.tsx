@@ -3,10 +3,35 @@ import Link from "next/link"
 export default function Home() {
   return (
     <div className="min-h-screen bg-white">
-      <main className="max-w-2xl mx-auto px-6 py-16 md:py-24">
+      {/* Marquee Strip */}
+      <div className="fixed top-0 left-0 right-0 bg-black text-white py-2 overflow-hidden whitespace-nowrap z-50">
+        <div className="animate-marquee inline-block">
+          <span className="mx-4">Vote for #34</span>
+          <span className="mx-4">Vote for #34</span>
+          <span className="mx-4">Vote for #34</span>
+          <span className="mx-4">Vote for #34</span>
+          <span className="mx-4">Vote for #34</span>
+          <span className="mx-4">Vote for #34</span>
+          <span className="mx-4">Vote for #34</span>
+          <span className="mx-4">Vote for #34</span>
+          <span className="mx-4">Vote for #34</span>
+          <span className="mx-4">Vote for #34</span>
+          <span className="mx-4">Vote for #34</span>
+          <span className="mx-4">Vote for #34</span>
+          <span className="mx-4">Vote for #34</span>
+          <span className="mx-4">Vote for #34</span>
+          <span className="mx-4">Vote for #34</span>
+          <span className="mx-4">Vote for #34</span>
+          <span className="mx-4">Vote for #34</span>
+          <span className="mx-4">Vote for #34</span>
+          <span className="mx-4">Vote for #34</span>
+          <span className="mx-4">Vote for #34</span>
+        </div>
+      </div>
+      <main className="max-w-2xl mx-auto px-6 py-16 md:py-24 mt-12">
         {/* Title */}
-        <h1 className="text-4xl font-bold mb-16">BuildSomethingWonderful</h1>
-        <p className="text-2xl font-semibold mb-8">fund to help student-builders across the world build onchain through
+        <h1 className="text-4xl font-bold">BuildSomethingWonderful</h1>
+        <p className="text-lg mt-2 pb-12 text-gray-500">fund to help student-builders across the world build onchain through
         experimental grant funding.</p>
 
         {/* Introduction */}
@@ -17,10 +42,6 @@ export default function Home() {
               Akhil
             </Link>
           </p>
-        </div>
-
-        {/* Background */}
-        <div className="mb-16">
           <ul className="space-y-5 text-lg">
             <li className="flex items-start">
               <span className="inline-block w-1.5 h-1.5 rounded-full bg-gray-400 mt-2.5 mr-3 flex-shrink-0"></span>
@@ -52,6 +73,7 @@ export default function Home() {
           </ul>
         </div>
 
+        
         
 
         {/* Why do We Need? */}
