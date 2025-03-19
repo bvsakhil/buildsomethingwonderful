@@ -38,6 +38,15 @@ export default function Home() {
               <span className="inline-block w-1.5 h-1.5 rounded-full bg-gray-400 mt-2.5 mr-3 flex-shrink-0"></span>
               <span>Passionate about building products, music, movies, fandom, and collectibles.</span>
             </li>
+            <li className="flex items-start">
+              <span className="inline-block w-1.5 h-1.5 rounded-full bg-gray-400 mt-2.5 mr-3 flex-shrink-0"></span>
+              <span>
+                Built a Music Consumer app with 1.7M+ Game plays with 700K+ Users. Check it out at{" "}
+                <Link href="https://muzify.com/" className="underline underline-offset-4">
+                  Muzify
+                </Link>.
+              </span>
+            </li>
           </ul>
         </div>
 
