@@ -3,7 +3,7 @@ import Link from "next/link"
 export default function Home() {
   return (
     <div className="min-h-screen bg-white">
-      {/* Marquee Strip */}
+      {/* Marquee Strip
       <div className="fixed top-0 left-0 right-0 bg-black text-white py-2 overflow-hidden whitespace-nowrap z-50">
         <div className="animate-marquee inline-block">
           <span className="mx-4">Vote for #34</span>
@@ -27,8 +27,8 @@ export default function Home() {
           <span className="mx-4">Vote for #34</span>
           <span className="mx-4">Vote for #34</span>
         </div>
-      </div>
-      <main className="max-w-2xl mx-auto px-6 py-16 md:py-24 mt-12">
+      </div>*/}
+      <main className="max-w-2xl mx-auto px-6 py-16 md:py-8 mt-12">
         {/* Title */}
         <h1 className="text-4xl font-bold">BuildSomethingWonderful</h1>
         <p className="text-lg mt-2 pb-12 text-gray-500">fund to help student-builders across the world build onchain through
@@ -38,7 +38,7 @@ export default function Home() {
         <div className="mb-16">
           <p className="text-lg mb-6">
             Hello! I'm{" "}
-            <Link href="https://x.com/akhil_bvs" className="underline underline-offset-4">
+            <Link href="https://x.com/akhil_bvs" className="underline underline-offset-4" target="_blank" rel="noopener noreferrer">
               Akhil
             </Link>
           </p>
